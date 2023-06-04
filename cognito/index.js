@@ -1,4 +1,4 @@
-const AwsConfig = require("./AWSConfig");
+const AwsConfig = require("../AWSConfig");
 
 function signUp(email, password, agent = "none") {
   return new Promise((resolve) => {
